@@ -1,5 +1,5 @@
 # ittxx.cn-cms
-a blog system ittxx.cn
+
 FeehiCMS  __[(English)](docs/README_EN.md)__  首款编写单元测试、功能测试、验收测试的yii2开源系统
 ===============================
 
