@@ -1,0 +1,51 @@
+{
+    "name": "feehi/cms",
+    "description": "Feehi CMS Project Template",
+    "keywords": ["feehicms", "yii2 cms", "cms", "php framework", "yii2 advanced", "project template", "feehi", "php", "php cms"],
+    "homepage": "http://cms.feehi.com/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/liufee/cms/issues?state=open",
+        "forum": "http://cms.feehi.com/",
+        "wiki": "http://cms.feehi.com/help",
+        "source": "https://github.com/feehi/cms"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": ">=2.0.13",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-swiftmailer": "*",
+        "feehi/yii2-swoole": ">=0.0.5",
+        "feehi/yii2-cdn" : "*",
+        "yiisoft/yii2-imagine": "^2.1"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "~2.0.0",
+        "yiisoft/yii2-gii": "~2.0.0",
+        "yiisoft/yii2-faker": "~2.0.0",
+        "codeception/base": "^2.2.3",
+        "codeception/verify": "~0.3.1",
+        "guzzlehttp/guzzle": ">=4.1.4 <7.0"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        },
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}

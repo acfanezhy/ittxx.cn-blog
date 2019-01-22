@@ -1,0 +1,129 @@
+Message-ID: <931a3976344ec7ba8b8a3a232ac97e7a@ittxx.cn>
+Date: Fri, 21 Sep 2018 03:02:49 +0800
+Subject: =?UTF-8?Q?=E6=9D=A5=E8=87=AA?= ITTXX.CN
+ =?UTF-8?Q?=E5=89=8D=E5=8F=B0=E7=9A=84=E6=96=B0?=
+ =?UTF-8?Q?=E6=97=A5=E5=BF=97=E6=B6=88=E6=81=AF?=
+From: "ittxx.cn robot " <admin@ittxx.cn>
+To: admin@feehi.com, liufee@126.com
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+2018-09-21 03:02:49
+[127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][error][yii\web\HttpException:4=
+04]
+exception 'yii\base\InvalidRouteException' with message 'Unable to
+resolve the request "assets/8c56d0a6/plugins/toastr/toastr.min.js".'
+in
+G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0
+G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php(10=
+3):
+yii\base\Module->runAction('assets/8c56d0a6...', Array)
+#1
+G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(3=
+86):
+yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17):
+yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message
+'=E9=A1=B5=E9=9D=A2=E6=9C=AA=E6=89=BE=E5=88=B0=E3=80=82' in
+G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0
+G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(3=
+86):
+yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17):
+yii\base\Application->run()
+#2 {main}
+2018-09-21 03:02:42
+[127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][info][application] $_GET =3D
+[]
+
+$_POST =3D []
+
+$_FILES =3D []
+
+$_COOKIE =3D [
+    'safedog-flow-item' =3D> 'B2ABEA524D83F19C9C085A69D7CED3AB'
+    '__guid' =3D> '111155164.1028584148676343900.1536468534548.079'
+    'bdshare_firstime' =3D> '1536845685886'
+    'PHPSESSID' =3D> 'latnd6mse2l5rlrjhqmgoju4j7'
+    '_csrf_backend' =3D>
+'cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa:2:{i:0=
+;s:13:\"_csrf_backend\";i:1;s:32:\"QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf\";}'
+    '_csrf' =3D>
+'29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba:2:{i:0=
+;s:5:\"_csrf\";i:1;s:32:\"ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS\";}'
+    'monitor_count' =3D> '4344'
+]
+
+$_SESSION =3D [
+    '__flash' =3D> []
+    '_backend_returnUrl' =3D> '/admin/'
+    '__captcha/site/captcha' =3D> 'jexu'
+    '__captcha/site/captchacount' =3D> 1
+]
+
+$_SERVER =3D [
+    'REDIRECT_STATUS' =3D> '200'
+    'HTTP_HOST' =3D> 'ittxx.cn'
+    'HTTP_CONNECTION' =3D> 'keep-alive'
+    'HTTP_USER_AGENT' =3D> 'Mozilla/5.0 (Windows NT 6.1; WOW64)
+AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132
+Safari/537.36'
+    'HTTP_ACCEPT' =3D> '*/*'
+    'HTTP_REFERER' =3D> 'http://ittxx.cn/view/34'
+    'HTTP_ACCEPT_ENCODING' =3D> 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' =3D> 'zh-CN,zh;q=3D0.9'
+    'HTTP_COOKIE' =3D>
+'safedog-flow-item=3DB2ABEA524D83F19C9C085A69D7CED3AB;
+__guid=3D111155164.1028584148676343900.1536468534548.079;
+bdshare_firstime=3D1536845685886; PHPSESSID=3Dlatnd6mse2l5rlrjhqmgoju4j7;
+_csrf_backend=3Dcb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d=
+83a7aafa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%=
+3A%22QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf%22%3B%7D;
+_csrf=3D29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba%3=
+A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ayfS4MSyQCwkFF=
+N0EudiRY4z2-JF1pzS%22%3B%7D;
+monitor_count=3D4344'
+    'PATH' =3D>
+'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Window=
+s\\System32\\WindowsPowerShell\\v1.0\\;G:\\Programs\\Appserv\\php5;G:\\P=
+rograms\\Appserv\\MySQL\\bin;'
+    'SystemRoot' =3D> 'C:\\Windows'
+    'COMSPEC' =3D> 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' =3D>
+'.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' =3D> 'C:\\Windows'
+    'SERVER_SIGNATURE' =3D> ''
+    'SERVER_SOFTWARE' =3D> 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e
+PHP/5.6.17'
+    'SERVER_NAME' =3D> 'ittxx.cn'
+    'SERVER_ADDR' =3D> '127.0.0.1'
+    'SERVER_PORT' =3D> '80'
+    'REMOTE_ADDR' =3D> '127.0.0.1'
+    'DOCUMENT_ROOT' =3D> 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'REQUEST_SCHEME' =3D> 'http'
+    'CONTEXT_PREFIX' =3D> ''
+    'CONTEXT_DOCUMENT_ROOT' =3D>
+'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'SERVER_ADMIN' =3D> 'acfanezhy@163.com'
+    'SCRIPT_FILENAME' =3D>
+'G:/Programs/Appserv/www/ittxxcn/frontend/web/index.php'
+    'REMOTE_PORT' =3D> '58513'
+    'REDIRECT_URL' =3D> '/assets/8c56d0a6/plugins/toastr/toastr.min.js'
+    'GATEWAY_INTERFACE' =3D> 'CGI/1.1'
+    'SERVER_PROTOCOL' =3D> 'HTTP/1.1'
+    'REQUEST_METHOD' =3D> 'GET'
+    'QUERY_STRING' =3D> ''
+    'REQUEST_URI' =3D> '/assets/8c56d0a6/plugins/toastr/toastr.min.js'
+    'SCRIPT_NAME' =3D> '/index.php'
+    'PHP_SELF' =3D> '/index.php'
+    'REQUEST_TIME_FLOAT' =3D> 1537470162.741
+    'REQUEST_TIME' =3D> 1537470162
+]

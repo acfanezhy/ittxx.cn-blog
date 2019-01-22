@@ -1,0 +1,1332 @@
+2018-09-21 03:02:38 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/8c56d0a6/css/style.css".' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/8c56d0a6...', Array)
+#1 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-09-21 03:02:38 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'safedog-flow-item' => 'B2ABEA524D83F19C9C085A69D7CED3AB'
+    '__guid' => '111155164.1028584148676343900.1536468534548.079'
+    'bdshare_firstime' => '1536845685886'
+    'PHPSESSID' => 'latnd6mse2l5rlrjhqmgoju4j7'
+    '_csrf_backend' => 'cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf\";}'
+    '_csrf' => '29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS\";}'
+    'monitor_count' => '4343'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'jexu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'ittxx.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://ittxx.cn/view/34'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'safedog-flow-item=B2ABEA524D83F19C9C085A69D7CED3AB; __guid=111155164.1028584148676343900.1536468534548.079; bdshare_firstime=1536845685886; PHPSESSID=latnd6mse2l5rlrjhqmgoju4j7; _csrf_backend=cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf%22%3B%7D; _csrf=29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS%22%3B%7D; monitor_count=4343'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\Programs\\Appserv\\php5;G:\\Programs\\Appserv\\MySQL\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.6.17'
+    'SERVER_NAME' => 'ittxx.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'SERVER_ADMIN' => 'acfanezhy@163.com'
+    'SCRIPT_FILENAME' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web/index.php'
+    'REMOTE_PORT' => '58482'
+    'REDIRECT_URL' => '/assets/8c56d0a6/css/style.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/assets/8c56d0a6/css/style.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1537470158.502
+    'REQUEST_TIME' => 1537470158
+]
+2018-09-21 03:02:39 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/8c56d0a6/plugins/toastr/toastr.min.css".' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/8c56d0a6...', Array)
+#1 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-09-21 03:02:39 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'safedog-flow-item' => 'B2ABEA524D83F19C9C085A69D7CED3AB'
+    '__guid' => '111155164.1028584148676343900.1536468534548.079'
+    'bdshare_firstime' => '1536845685886'
+    'PHPSESSID' => 'latnd6mse2l5rlrjhqmgoju4j7'
+    '_csrf_backend' => 'cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf\";}'
+    '_csrf' => '29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS\";}'
+    'monitor_count' => '4344'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'jexu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'ittxx.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://ittxx.cn/view/34'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'safedog-flow-item=B2ABEA524D83F19C9C085A69D7CED3AB; __guid=111155164.1028584148676343900.1536468534548.079; bdshare_firstime=1536845685886; PHPSESSID=latnd6mse2l5rlrjhqmgoju4j7; _csrf_backend=cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf%22%3B%7D; _csrf=29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS%22%3B%7D; monitor_count=4344'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\Programs\\Appserv\\php5;G:\\Programs\\Appserv\\MySQL\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.6.17'
+    'SERVER_NAME' => 'ittxx.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'SERVER_ADMIN' => 'acfanezhy@163.com'
+    'SCRIPT_FILENAME' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web/index.php'
+    'REMOTE_PORT' => '58479'
+    'REDIRECT_URL' => '/assets/8c56d0a6/plugins/toastr/toastr.min.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/assets/8c56d0a6/plugins/toastr/toastr.min.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1537470158.993
+    'REQUEST_TIME' => 1537470158
+]
+2018-09-21 03:02:39 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/8c56d0a6/syntaxhighlighter/styles/shCoreDefault.css".' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/8c56d0a6...', Array)
+#1 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-09-21 03:02:39 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'safedog-flow-item' => 'B2ABEA524D83F19C9C085A69D7CED3AB'
+    '__guid' => '111155164.1028584148676343900.1536468534548.079'
+    'bdshare_firstime' => '1536845685886'
+    'PHPSESSID' => 'latnd6mse2l5rlrjhqmgoju4j7'
+    '_csrf_backend' => 'cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf\";}'
+    '_csrf' => '29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS\";}'
+    'monitor_count' => '4344'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'jexu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'ittxx.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'http://ittxx.cn/view/34'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'safedog-flow-item=B2ABEA524D83F19C9C085A69D7CED3AB; __guid=111155164.1028584148676343900.1536468534548.079; bdshare_firstime=1536845685886; PHPSESSID=latnd6mse2l5rlrjhqmgoju4j7; _csrf_backend=cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf%22%3B%7D; _csrf=29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS%22%3B%7D; monitor_count=4344'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\Programs\\Appserv\\php5;G:\\Programs\\Appserv\\MySQL\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.6.17'
+    'SERVER_NAME' => 'ittxx.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'SERVER_ADMIN' => 'acfanezhy@163.com'
+    'SCRIPT_FILENAME' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web/index.php'
+    'REMOTE_PORT' => '58480'
+    'REDIRECT_URL' => '/assets/8c56d0a6/syntaxhighlighter/styles/shCoreDefault.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/assets/8c56d0a6/syntaxhighlighter/styles/shCoreDefault.css'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1537470159.34
+    'REQUEST_TIME' => 1537470159
+]
+2018-09-21 03:02:40 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/8c56d0a6/plugins/toastr/toastr.min.js".' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/8c56d0a6...', Array)
+#1 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-09-21 03:02:39 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'safedog-flow-item' => 'B2ABEA524D83F19C9C085A69D7CED3AB'
+    '__guid' => '111155164.1028584148676343900.1536468534548.079'
+    'bdshare_firstime' => '1536845685886'
+    'PHPSESSID' => 'latnd6mse2l5rlrjhqmgoju4j7'
+    '_csrf_backend' => 'cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf\";}'
+    '_csrf' => '29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS\";}'
+    'monitor_count' => '4344'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'jexu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'ittxx.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://ittxx.cn/view/34'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'safedog-flow-item=B2ABEA524D83F19C9C085A69D7CED3AB; __guid=111155164.1028584148676343900.1536468534548.079; bdshare_firstime=1536845685886; PHPSESSID=latnd6mse2l5rlrjhqmgoju4j7; _csrf_backend=cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf%22%3B%7D; _csrf=29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS%22%3B%7D; monitor_count=4344'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\Programs\\Appserv\\php5;G:\\Programs\\Appserv\\MySQL\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.6.17'
+    'SERVER_NAME' => 'ittxx.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'SERVER_ADMIN' => 'acfanezhy@163.com'
+    'SCRIPT_FILENAME' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web/index.php'
+    'REMOTE_PORT' => '58484'
+    'REDIRECT_URL' => '/assets/8c56d0a6/plugins/toastr/toastr.min.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/assets/8c56d0a6/plugins/toastr/toastr.min.js'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1537470159.662
+    'REQUEST_TIME' => 1537470159
+]
+2018-09-21 03:02:40 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/8c56d0a6/js/jquery.min.js".' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/8c56d0a6...', Array)
+#1 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-09-21 03:02:39 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'safedog-flow-item' => 'B2ABEA524D83F19C9C085A69D7CED3AB'
+    '__guid' => '111155164.1028584148676343900.1536468534548.079'
+    'bdshare_firstime' => '1536845685886'
+    'PHPSESSID' => 'latnd6mse2l5rlrjhqmgoju4j7'
+    '_csrf_backend' => 'cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf\";}'
+    '_csrf' => '29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS\";}'
+    'monitor_count' => '4344'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'jexu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'ittxx.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://ittxx.cn/view/34'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'safedog-flow-item=B2ABEA524D83F19C9C085A69D7CED3AB; __guid=111155164.1028584148676343900.1536468534548.079; bdshare_firstime=1536845685886; PHPSESSID=latnd6mse2l5rlrjhqmgoju4j7; _csrf_backend=cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf%22%3B%7D; _csrf=29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS%22%3B%7D; monitor_count=4344'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\Programs\\Appserv\\php5;G:\\Programs\\Appserv\\MySQL\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.6.17'
+    'SERVER_NAME' => 'ittxx.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'SERVER_ADMIN' => 'acfanezhy@163.com'
+    'SCRIPT_FILENAME' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web/index.php'
+    'REMOTE_PORT' => '58481'
+    'REDIRECT_URL' => '/assets/8c56d0a6/js/jquery.min.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/assets/8c56d0a6/js/jquery.min.js'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1537470159.661
+    'REQUEST_TIME' => 1537470159
+]
+2018-09-21 03:02:40 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/8c56d0a6/syntaxhighlighter/scripts/shCore.js".' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/8c56d0a6...', Array)
+#1 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-09-21 03:02:39 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'safedog-flow-item' => 'B2ABEA524D83F19C9C085A69D7CED3AB'
+    '__guid' => '111155164.1028584148676343900.1536468534548.079'
+    'bdshare_firstime' => '1536845685886'
+    'PHPSESSID' => 'latnd6mse2l5rlrjhqmgoju4j7'
+    '_csrf_backend' => 'cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf\";}'
+    '_csrf' => '29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS\";}'
+    'monitor_count' => '4344'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'jexu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'ittxx.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://ittxx.cn/view/34'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'safedog-flow-item=B2ABEA524D83F19C9C085A69D7CED3AB; __guid=111155164.1028584148676343900.1536468534548.079; bdshare_firstime=1536845685886; PHPSESSID=latnd6mse2l5rlrjhqmgoju4j7; _csrf_backend=cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf%22%3B%7D; _csrf=29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS%22%3B%7D; monitor_count=4344'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\Programs\\Appserv\\php5;G:\\Programs\\Appserv\\MySQL\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.6.17'
+    'SERVER_NAME' => 'ittxx.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'SERVER_ADMIN' => 'acfanezhy@163.com'
+    'SCRIPT_FILENAME' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web/index.php'
+    'REMOTE_PORT' => '58490'
+    'REDIRECT_URL' => '/assets/8c56d0a6/syntaxhighlighter/scripts/shCore.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/assets/8c56d0a6/syntaxhighlighter/scripts/shCore.js'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1537470159.663
+    'REQUEST_TIME' => 1537470159
+]
+2018-09-21 03:02:40 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/8c56d0a6/syntaxhighlighter/scripts/shBrushJScript.js".' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/8c56d0a6...', Array)
+#1 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-09-21 03:02:39 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'safedog-flow-item' => 'B2ABEA524D83F19C9C085A69D7CED3AB'
+    '__guid' => '111155164.1028584148676343900.1536468534548.079'
+    'bdshare_firstime' => '1536845685886'
+    'PHPSESSID' => 'latnd6mse2l5rlrjhqmgoju4j7'
+    '_csrf_backend' => 'cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf\";}'
+    '_csrf' => '29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS\";}'
+    'monitor_count' => '4344'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'jexu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'ittxx.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://ittxx.cn/view/34'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'safedog-flow-item=B2ABEA524D83F19C9C085A69D7CED3AB; __guid=111155164.1028584148676343900.1536468534548.079; bdshare_firstime=1536845685886; PHPSESSID=latnd6mse2l5rlrjhqmgoju4j7; _csrf_backend=cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf%22%3B%7D; _csrf=29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS%22%3B%7D; monitor_count=4344'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\Programs\\Appserv\\php5;G:\\Programs\\Appserv\\MySQL\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.6.17'
+    'SERVER_NAME' => 'ittxx.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'SERVER_ADMIN' => 'acfanezhy@163.com'
+    'SCRIPT_FILENAME' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web/index.php'
+    'REMOTE_PORT' => '58491'
+    'REDIRECT_URL' => '/assets/8c56d0a6/syntaxhighlighter/scripts/shBrushJScript.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/assets/8c56d0a6/syntaxhighlighter/scripts/shBrushJScript.js'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1537470159.674
+    'REQUEST_TIME' => 1537470159
+]
+2018-09-21 03:02:40 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/8c56d0a6/js/index.js".' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/8c56d0a6...', Array)
+#1 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-09-21 03:02:39 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'safedog-flow-item' => 'B2ABEA524D83F19C9C085A69D7CED3AB'
+    '__guid' => '111155164.1028584148676343900.1536468534548.079'
+    'bdshare_firstime' => '1536845685886'
+    'PHPSESSID' => 'latnd6mse2l5rlrjhqmgoju4j7'
+    '_csrf_backend' => 'cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf\";}'
+    '_csrf' => '29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS\";}'
+    'monitor_count' => '4344'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'jexu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'ittxx.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://ittxx.cn/view/34'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'safedog-flow-item=B2ABEA524D83F19C9C085A69D7CED3AB; __guid=111155164.1028584148676343900.1536468534548.079; bdshare_firstime=1536845685886; PHPSESSID=latnd6mse2l5rlrjhqmgoju4j7; _csrf_backend=cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf%22%3B%7D; _csrf=29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS%22%3B%7D; monitor_count=4344'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\Programs\\Appserv\\php5;G:\\Programs\\Appserv\\MySQL\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.6.17'
+    'SERVER_NAME' => 'ittxx.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'SERVER_ADMIN' => 'acfanezhy@163.com'
+    'SCRIPT_FILENAME' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web/index.php'
+    'REMOTE_PORT' => '58483'
+    'REDIRECT_URL' => '/assets/8c56d0a6/js/index.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/assets/8c56d0a6/js/index.js'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1537470159.663
+    'REQUEST_TIME' => 1537470159
+]
+2018-09-21 03:02:41 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/8c56d0a6/syntaxhighlighter/scripts/shBrushPython.js".' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/8c56d0a6...', Array)
+#1 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-09-21 03:02:39 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'safedog-flow-item' => 'B2ABEA524D83F19C9C085A69D7CED3AB'
+    '__guid' => '111155164.1028584148676343900.1536468534548.079'
+    'bdshare_firstime' => '1536845685886'
+    'PHPSESSID' => 'latnd6mse2l5rlrjhqmgoju4j7'
+    '_csrf_backend' => 'cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf\";}'
+    '_csrf' => '29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS\";}'
+    'monitor_count' => '4344'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'jexu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'ittxx.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://ittxx.cn/view/34'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'safedog-flow-item=B2ABEA524D83F19C9C085A69D7CED3AB; __guid=111155164.1028584148676343900.1536468534548.079; bdshare_firstime=1536845685886; PHPSESSID=latnd6mse2l5rlrjhqmgoju4j7; _csrf_backend=cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf%22%3B%7D; _csrf=29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS%22%3B%7D; monitor_count=4344'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\Programs\\Appserv\\php5;G:\\Programs\\Appserv\\MySQL\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.6.17'
+    'SERVER_NAME' => 'ittxx.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'SERVER_ADMIN' => 'acfanezhy@163.com'
+    'SCRIPT_FILENAME' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web/index.php'
+    'REMOTE_PORT' => '58492'
+    'REDIRECT_URL' => '/assets/8c56d0a6/syntaxhighlighter/scripts/shBrushPython.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/assets/8c56d0a6/syntaxhighlighter/scripts/shBrushPython.js'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1537470159.69
+    'REQUEST_TIME' => 1537470159
+]
+2018-09-21 03:02:41 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/8c56d0a6/syntaxhighlighter/scripts/shBrushPhp.js".' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/8c56d0a6...', Array)
+#1 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-09-21 03:02:40 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'safedog-flow-item' => 'B2ABEA524D83F19C9C085A69D7CED3AB'
+    '__guid' => '111155164.1028584148676343900.1536468534548.079'
+    'bdshare_firstime' => '1536845685886'
+    'PHPSESSID' => 'latnd6mse2l5rlrjhqmgoju4j7'
+    '_csrf_backend' => 'cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf\";}'
+    '_csrf' => '29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS\";}'
+    'monitor_count' => '4344'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'jexu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'ittxx.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://ittxx.cn/view/34'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'safedog-flow-item=B2ABEA524D83F19C9C085A69D7CED3AB; __guid=111155164.1028584148676343900.1536468534548.079; bdshare_firstime=1536845685886; PHPSESSID=latnd6mse2l5rlrjhqmgoju4j7; _csrf_backend=cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf%22%3B%7D; _csrf=29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS%22%3B%7D; monitor_count=4344'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\Programs\\Appserv\\php5;G:\\Programs\\Appserv\\MySQL\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.6.17'
+    'SERVER_NAME' => 'ittxx.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'SERVER_ADMIN' => 'acfanezhy@163.com'
+    'SCRIPT_FILENAME' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web/index.php'
+    'REMOTE_PORT' => '58494'
+    'REDIRECT_URL' => '/assets/8c56d0a6/syntaxhighlighter/scripts/shBrushPhp.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/assets/8c56d0a6/syntaxhighlighter/scripts/shBrushPhp.js'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1537470160.115
+    'REQUEST_TIME' => 1537470160
+]
+2018-09-21 03:02:41 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/8c56d0a6/syntaxhighlighter/scripts/shBrushJava.js".' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/8c56d0a6...', Array)
+#1 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-09-21 03:02:40 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'safedog-flow-item' => 'B2ABEA524D83F19C9C085A69D7CED3AB'
+    '__guid' => '111155164.1028584148676343900.1536468534548.079'
+    'bdshare_firstime' => '1536845685886'
+    'PHPSESSID' => 'latnd6mse2l5rlrjhqmgoju4j7'
+    '_csrf_backend' => 'cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf\";}'
+    '_csrf' => '29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS\";}'
+    'monitor_count' => '4344'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'jexu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'ittxx.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://ittxx.cn/view/34'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'safedog-flow-item=B2ABEA524D83F19C9C085A69D7CED3AB; __guid=111155164.1028584148676343900.1536468534548.079; bdshare_firstime=1536845685886; PHPSESSID=latnd6mse2l5rlrjhqmgoju4j7; _csrf_backend=cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf%22%3B%7D; _csrf=29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS%22%3B%7D; monitor_count=4344'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\Programs\\Appserv\\php5;G:\\Programs\\Appserv\\MySQL\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.6.17'
+    'SERVER_NAME' => 'ittxx.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'SERVER_ADMIN' => 'acfanezhy@163.com'
+    'SCRIPT_FILENAME' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web/index.php'
+    'REMOTE_PORT' => '58496'
+    'REDIRECT_URL' => '/assets/8c56d0a6/syntaxhighlighter/scripts/shBrushJava.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/assets/8c56d0a6/syntaxhighlighter/scripts/shBrushJava.js'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1537470160.374
+    'REQUEST_TIME' => 1537470160
+]
+2018-09-21 03:02:41 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/8c56d0a6/syntaxhighlighter/scripts/shBrushCss.js".' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/8c56d0a6...', Array)
+#1 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-09-21 03:02:40 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'safedog-flow-item' => 'B2ABEA524D83F19C9C085A69D7CED3AB'
+    '__guid' => '111155164.1028584148676343900.1536468534548.079'
+    'bdshare_firstime' => '1536845685886'
+    'PHPSESSID' => 'latnd6mse2l5rlrjhqmgoju4j7'
+    '_csrf_backend' => 'cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf\";}'
+    '_csrf' => '29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS\";}'
+    'monitor_count' => '4344'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'jexu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'ittxx.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://ittxx.cn/view/34'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'safedog-flow-item=B2ABEA524D83F19C9C085A69D7CED3AB; __guid=111155164.1028584148676343900.1536468534548.079; bdshare_firstime=1536845685886; PHPSESSID=latnd6mse2l5rlrjhqmgoju4j7; _csrf_backend=cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf%22%3B%7D; _csrf=29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS%22%3B%7D; monitor_count=4344'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\Programs\\Appserv\\php5;G:\\Programs\\Appserv\\MySQL\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.6.17'
+    'SERVER_NAME' => 'ittxx.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'SERVER_ADMIN' => 'acfanezhy@163.com'
+    'SCRIPT_FILENAME' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web/index.php'
+    'REMOTE_PORT' => '58498'
+    'REDIRECT_URL' => '/assets/8c56d0a6/syntaxhighlighter/scripts/shBrushCss.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/assets/8c56d0a6/syntaxhighlighter/scripts/shBrushCss.js'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1537470160.597
+    'REQUEST_TIME' => 1537470160
+]
+2018-09-21 03:02:42 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/8c56d0a6/syntaxhighlighter/scripts/shBrushXml.js".' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/8c56d0a6...', Array)
+#1 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-09-21 03:02:40 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'safedog-flow-item' => 'B2ABEA524D83F19C9C085A69D7CED3AB'
+    '__guid' => '111155164.1028584148676343900.1536468534548.079'
+    'bdshare_firstime' => '1536845685886'
+    'PHPSESSID' => 'latnd6mse2l5rlrjhqmgoju4j7'
+    '_csrf_backend' => 'cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf\";}'
+    '_csrf' => '29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS\";}'
+    'monitor_count' => '4344'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'jexu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'ittxx.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://ittxx.cn/view/34'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'safedog-flow-item=B2ABEA524D83F19C9C085A69D7CED3AB; __guid=111155164.1028584148676343900.1536468534548.079; bdshare_firstime=1536845685886; PHPSESSID=latnd6mse2l5rlrjhqmgoju4j7; _csrf_backend=cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf%22%3B%7D; _csrf=29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS%22%3B%7D; monitor_count=4344'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\Programs\\Appserv\\php5;G:\\Programs\\Appserv\\MySQL\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.6.17'
+    'SERVER_NAME' => 'ittxx.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'SERVER_ADMIN' => 'acfanezhy@163.com'
+    'SCRIPT_FILENAME' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web/index.php'
+    'REMOTE_PORT' => '58500'
+    'REDIRECT_URL' => '/assets/8c56d0a6/syntaxhighlighter/scripts/shBrushXml.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/assets/8c56d0a6/syntaxhighlighter/scripts/shBrushXml.js'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1537470160.821
+    'REQUEST_TIME' => 1537470160
+]
+2018-09-21 03:02:42 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/b5249ab9/jquery.js".' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/b5249ab9...', Array)
+#1 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-09-21 03:02:41 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'safedog-flow-item' => 'B2ABEA524D83F19C9C085A69D7CED3AB'
+    '__guid' => '111155164.1028584148676343900.1536468534548.079'
+    'bdshare_firstime' => '1536845685886'
+    'PHPSESSID' => 'latnd6mse2l5rlrjhqmgoju4j7'
+    '_csrf_backend' => 'cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf\";}'
+    '_csrf' => '29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS\";}'
+    'monitor_count' => '4344'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'jexu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'ittxx.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://ittxx.cn/view/34'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'safedog-flow-item=B2ABEA524D83F19C9C085A69D7CED3AB; __guid=111155164.1028584148676343900.1536468534548.079; bdshare_firstime=1536845685886; PHPSESSID=latnd6mse2l5rlrjhqmgoju4j7; _csrf_backend=cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf%22%3B%7D; _csrf=29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS%22%3B%7D; monitor_count=4344'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\Programs\\Appserv\\php5;G:\\Programs\\Appserv\\MySQL\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.6.17'
+    'SERVER_NAME' => 'ittxx.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'SERVER_ADMIN' => 'acfanezhy@163.com'
+    'SCRIPT_FILENAME' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web/index.php'
+    'REMOTE_PORT' => '58502'
+    'REDIRECT_URL' => '/assets/b5249ab9/jquery.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/assets/b5249ab9/jquery.js'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1537470161.043
+    'REQUEST_TIME' => 1537470161
+]
+2018-09-21 03:02:42 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/f64ee6cb/yii.js".' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/f64ee6cb...', Array)
+#1 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-09-21 03:02:41 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'safedog-flow-item' => 'B2ABEA524D83F19C9C085A69D7CED3AB'
+    '__guid' => '111155164.1028584148676343900.1536468534548.079'
+    'bdshare_firstime' => '1536845685886'
+    'PHPSESSID' => 'latnd6mse2l5rlrjhqmgoju4j7'
+    '_csrf_backend' => 'cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf\";}'
+    '_csrf' => '29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS\";}'
+    'monitor_count' => '4344'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'jexu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'ittxx.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://ittxx.cn/view/34'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'safedog-flow-item=B2ABEA524D83F19C9C085A69D7CED3AB; __guid=111155164.1028584148676343900.1536468534548.079; bdshare_firstime=1536845685886; PHPSESSID=latnd6mse2l5rlrjhqmgoju4j7; _csrf_backend=cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf%22%3B%7D; _csrf=29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS%22%3B%7D; monitor_count=4344'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\Programs\\Appserv\\php5;G:\\Programs\\Appserv\\MySQL\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.6.17'
+    'SERVER_NAME' => 'ittxx.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'SERVER_ADMIN' => 'acfanezhy@163.com'
+    'SCRIPT_FILENAME' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web/index.php'
+    'REMOTE_PORT' => '58504'
+    'REDIRECT_URL' => '/assets/f64ee6cb/yii.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/assets/f64ee6cb/yii.js'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1537470161.274
+    'REQUEST_TIME' => 1537470161
+]
+2018-09-21 03:02:43 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/f64ee6cb/yii.validation.js".' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/f64ee6cb...', Array)
+#1 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-09-21 03:02:41 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'safedog-flow-item' => 'B2ABEA524D83F19C9C085A69D7CED3AB'
+    '__guid' => '111155164.1028584148676343900.1536468534548.079'
+    'bdshare_firstime' => '1536845685886'
+    'PHPSESSID' => 'latnd6mse2l5rlrjhqmgoju4j7'
+    '_csrf_backend' => 'cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf\";}'
+    '_csrf' => '29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS\";}'
+    'monitor_count' => '4344'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'jexu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'ittxx.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://ittxx.cn/view/34'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'safedog-flow-item=B2ABEA524D83F19C9C085A69D7CED3AB; __guid=111155164.1028584148676343900.1536468534548.079; bdshare_firstime=1536845685886; PHPSESSID=latnd6mse2l5rlrjhqmgoju4j7; _csrf_backend=cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf%22%3B%7D; _csrf=29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS%22%3B%7D; monitor_count=4344'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\Programs\\Appserv\\php5;G:\\Programs\\Appserv\\MySQL\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.6.17'
+    'SERVER_NAME' => 'ittxx.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'SERVER_ADMIN' => 'acfanezhy@163.com'
+    'SCRIPT_FILENAME' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web/index.php'
+    'REMOTE_PORT' => '58506'
+    'REDIRECT_URL' => '/assets/f64ee6cb/yii.validation.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/assets/f64ee6cb/yii.validation.js'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1537470161.486
+    'REQUEST_TIME' => 1537470161
+]
+2018-09-21 03:02:43 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/f64ee6cb/yii.activeForm.js".' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/f64ee6cb...', Array)
+#1 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-09-21 03:02:41 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'safedog-flow-item' => 'B2ABEA524D83F19C9C085A69D7CED3AB'
+    '__guid' => '111155164.1028584148676343900.1536468534548.079'
+    'bdshare_firstime' => '1536845685886'
+    'PHPSESSID' => 'latnd6mse2l5rlrjhqmgoju4j7'
+    '_csrf_backend' => 'cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf\";}'
+    '_csrf' => '29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS\";}'
+    'monitor_count' => '4344'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'jexu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'ittxx.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://ittxx.cn/view/34'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'safedog-flow-item=B2ABEA524D83F19C9C085A69D7CED3AB; __guid=111155164.1028584148676343900.1536468534548.079; bdshare_firstime=1536845685886; PHPSESSID=latnd6mse2l5rlrjhqmgoju4j7; _csrf_backend=cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf%22%3B%7D; _csrf=29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS%22%3B%7D; monitor_count=4344'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\Programs\\Appserv\\php5;G:\\Programs\\Appserv\\MySQL\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.6.17'
+    'SERVER_NAME' => 'ittxx.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'SERVER_ADMIN' => 'acfanezhy@163.com'
+    'SCRIPT_FILENAME' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web/index.php'
+    'REMOTE_PORT' => '58508'
+    'REDIRECT_URL' => '/assets/f64ee6cb/yii.activeForm.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/assets/f64ee6cb/yii.activeForm.js'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1537470161.772
+    'REQUEST_TIME' => 1537470161
+]
+2018-09-21 03:02:49 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/8c56d0a6/plugins/toastr/toastr.min.js".' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/8c56d0a6...', Array)
+#1 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 G:\Programs\Appserv\www\ittxxcn\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 G:\Programs\Appserv\www\ittxxcn\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-09-21 03:02:42 [127.0.0.1][-][latnd6mse2l5rlrjhqmgoju4j7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'safedog-flow-item' => 'B2ABEA524D83F19C9C085A69D7CED3AB'
+    '__guid' => '111155164.1028584148676343900.1536468534548.079'
+    'bdshare_firstime' => '1536845685886'
+    'PHPSESSID' => 'latnd6mse2l5rlrjhqmgoju4j7'
+    '_csrf_backend' => 'cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf\";}'
+    '_csrf' => '29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS\";}'
+    'monitor_count' => '4344'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'jexu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'ittxx.cn'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://ittxx.cn/view/34'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'safedog-flow-item=B2ABEA524D83F19C9C085A69D7CED3AB; __guid=111155164.1028584148676343900.1536468534548.079; bdshare_firstime=1536845685886; PHPSESSID=latnd6mse2l5rlrjhqmgoju4j7; _csrf_backend=cb7648f266c263839e1d2ce1960eb929564db28711e3e78639ca80f5d83a7aafa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22QXKTotmY0pwzFWtpgRwxJiI4zs-xrbKf%22%3B%7D; _csrf=29878fe49514bf72c403d1a1c0dd0cbc414d3eaaff977755353111f7df24648ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ayfS4MSyQCwkFFN0EudiRY4z2-JF1pzS%22%3B%7D; monitor_count=4344'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\Programs\\Appserv\\php5;G:\\Programs\\Appserv\\MySQL\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.6.17'
+    'SERVER_NAME' => 'ittxx.cn'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web'
+    'SERVER_ADMIN' => 'acfanezhy@163.com'
+    'SCRIPT_FILENAME' => 'G:/Programs/Appserv/www/ittxxcn/frontend/web/index.php'
+    'REMOTE_PORT' => '58513'
+    'REDIRECT_URL' => '/assets/8c56d0a6/plugins/toastr/toastr.min.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/assets/8c56d0a6/plugins/toastr/toastr.min.js'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1537470162.741
+    'REQUEST_TIME' => 1537470162
+]
