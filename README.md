@@ -183,25 +183,3 @@ FeehiCMS没有对yii2做任何的修改、封装，但是把yii2的一些优秀�
     2. 与上(仅运行单元测试,功能测试)命令一致
 
 
-
-
-运行效果
----------
-![后台](docs/backend.png)
-
-![前台](docs/frontend.png)
-
-![后台文章编辑](docs/backend_article.png)
-
-![后台角色编辑](docs/backend_role.png)
-
-![后台自定义参数](docs/backend_custom_create.png)
-
-![后台文章编辑](docs/backend_custom_setting.png)
-
-![后台文章编辑](docs/backend_log.png)
-
-
-特别鸣谢
----------
-[twitf](https://github.com/twitf) 在后台时间搜索范围提供的建议和代码片段
